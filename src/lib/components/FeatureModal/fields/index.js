@@ -6,4 +6,7 @@
  * under the terms of the MIT License; see LICENSE file for more details.
  */
 
-export { LocationField } from './LocationField';
+export { PlaceField } from './PlaceField';
+export { DescriptionField } from './DescriptionField';
+
+export { InteractiveGeometryField } from './InteractiveGeometryField';

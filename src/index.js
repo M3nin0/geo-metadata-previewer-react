@@ -8,8 +8,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './demos/App';
+import EditControlExample from './demos/EditControlExample';
 
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-draw/dist/leaflet.draw.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<EditControlExample />, document.getElementById('root'));
